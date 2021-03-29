@@ -12,7 +12,7 @@ import androidx.core.app.NotificationCompat;
 import static com.example.sensoproject.App.CHANNEL_ID;
 
 
-public class ExampleService extends Service {
+public class NotificationService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
@@ -33,14 +33,14 @@ public class ExampleService extends Service {
 
 
 
-                .setContentText("input" )
+                .setContentText("All input" )
                 .setSmallIcon(R.drawable.ic_a)
                 .setContentIntent(pendingIntent)
                 .setStyle(new NotificationCompat.InboxStyle()
-                        .addLine("aa"+input)
-                        .addLine("aam"+input1)
-                        .addLine("abb"+input2)
-                        .addLine("acc"+input3))
+                        .addLine(input)
+                        .addLine(input1)
+                        .addLine(input2)
+                        .addLine(input3))
                 .build();
 
 

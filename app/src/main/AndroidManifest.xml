@@ -21,7 +21,7 @@
         </activity>
 
         <service
-            android:name=".ExampleService"
+            android:name=".NotificationService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>
 

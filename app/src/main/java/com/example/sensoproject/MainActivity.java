@@ -11,7 +11,6 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         String g1 = b3.getText().toString();
         String l1 = b4.getText().toString();
 
-        Intent serviceIntent = new Intent(this, ExampleService.class);
+        Intent serviceIntent = new Intent(this, NotificationService.class);
         serviceIntent.putExtra("inputExtra", l1);
         serviceIntent.putExtra("inputExtra1", g1);
         serviceIntent.putExtra("inputExtra2", p1);
