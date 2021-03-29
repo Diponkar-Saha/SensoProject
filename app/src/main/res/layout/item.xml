@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="12dp">
+
+
+
+            <TextView
+                android:id="@+id/Item_sensor_id"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Item_time"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Item_accelerometerSensor"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+
+            android:id="@+id/Item_proximitySensor"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Item_gyroscopeSensor"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_below="@+id/Item_lightSensor"
+            android:id="@+id/ph_no"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </LinearLayout>

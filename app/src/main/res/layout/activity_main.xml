@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnAccelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="accelerometerSensorOnClick"
+        android:text="Accelerometer" />
+
+
+    <TextView
+        android:id="@+id/btnProximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="proximitySensorOnClick"
+        android:text="Proximity Sensor" />
+
+
+    <TextView
+        android:id="@+id/btnGyro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gyroscopeSensorOnClick"
+        android:text="Gyroscope" />
+
+
+    <TextView
+        android:id="@+id/btnLightSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lightSensorOnClick"
+        android:text="Light Sensor"  />
+
+
+</LinearLayout>
