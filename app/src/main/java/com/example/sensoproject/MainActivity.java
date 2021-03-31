@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         b2 = findViewById(R.id.btnProximity);
         b3 = findViewById(R.id.btnGyro);
         linearLayout=findViewById(R.id.lll);
-      //  b4 = findViewById(R.id.btnLightSensor);
+        b4 = findViewById(R.id.btnLightSensor);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 

@@ -44,7 +44,7 @@ public class customAdapter extends RecyclerView.Adapter<customAdapter.MyViewHold
         holder.time.setText(String.valueOf(time.get(position)));
         holder.accelerometer.setText(String.valueOf(accelerometer.get(position)));
         holder.proximity.setText(String.valueOf(proximity.get(position)));
-        //holder.gyroscope.setText(String.valueOf(gyroscope.get(position)));
+        holder.gyroscope.setText(String.valueOf(gyroscope.get(position)));
 //        holder.lightSensor.setText(String.valueOf(lightSensor.get(position)));
 
     }

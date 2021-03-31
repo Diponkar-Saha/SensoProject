@@ -8,38 +8,98 @@
 
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/btnAccelerometer"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="accelerometerSensorOnClick"
-        android:text="Accelerometer" />
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#A8A8A8"
+            android:gravity="center"
+            android:text="if see all value please click all textview"
+            android:textColor="#FF6F00"
+            android:textSize="20sp"
+
+            android:shadowRadius="5"/>
+        <TextView
+            android:id="@+id/btnAccelerometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="accelerometerSensorOnClick"
+            android:background="@drawable/shape"
+            android:shadowColor="#A8A8A8"
+            android:gravity="center"
+            android:text="Accelerometer"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
 
 
-    <TextView
-        android:id="@+id/btnProximity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        <TextView
+            android:id="@+id/btnProximity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:shadowColor="#A8A8A8"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:onClick="proximitySensorOnClick"
+            android:text="Proximity Sensor"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
 
-        android:onClick="proximitySensorOnClick"
-        android:text="Proximity Sensor" />
+
+        <TextView
+            android:id="@+id/btnGyro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gyroscopeSensorOnClick"
+            android:text="Gyroscope"
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:shadowColor="#A8A8A8"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
 
 
-    <TextView
-        android:id="@+id/btnGyro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="gyroscopeSensorOnClick"
-        android:text="Gyroscope" />
+        <TextView
+            android:id="@+id/btnLightSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="lightSensorOnClick"
+            android:text="Light Sensor"
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:shadowColor="#A8A8A8"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#A8A8A8"
+            android:gravity="center"
+            android:text="if see the chart please click below anywhere"
+            android:textColor="#FF6F00"
+            android:textSize="20sp" />
 
 
-    <TextView
-        android:id="@+id/btnLightSensor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="lightSensorOnClick"
-        android:text="Light Sensor"  />
+
+    </LinearLayout>
+
 
 
 </LinearLayout>
